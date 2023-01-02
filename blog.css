@@ -1,0 +1,112 @@
+body{
+    background:linear-gradient(135deg, lightyellow 30%,lightpink, lightblue );
+    font-size: 120%;
+    font-family: sans-serif;
+    
+}
+.wrapper{
+    /* background-color: white; */
+    width: 1024px;
+    margin: 0 auto;
+    border-radius: 20px;
+    -webkit-border-radius:20px;
+    
+}
+header .brand{
+    color: rgb(14, 14, 14);
+    font-size: 170%;
+    padding: 40px;
+    font-style: italic;
+}
+header .brand span{
+    font-family: sans-serif;
+    font-size: 40%;
+    padding: 20px
+}
+.hero{
+    height: 400px;
+    background: #68bba1 url('./../img/wallpaper1.jpg')center no-repeat;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 90%;
+    clear: both;
+    display: block;
+}
+content{
+    overflow: hidden;
+    display: block;
+    padding: 50;
+}
+main{
+    width: 70%;
+    float: left;
+}
+aside{
+    float: right;
+    width: 30vh;
+}
+aside .section{
+    background-color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    padding: 5%;
+    border-radius: 10px;
+}
+aside .section h3{
+    background-color: bisque;
+    color: blueviolet;
+    padding: 20px;
+    margin-top: 0 ;
+}
+aside ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+aside a{
+    padding: 0 10px;
+    display: block;
+}
+a{
+    color: red;
+}
+a:hover{
+    color: goldenrod;
+}
+article{
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+article h2{
+    color: darkorange;
+    background-color: black;
+}
+
+/* newsletter */
+#tncText{
+    font-size: small;
+    object-fit: fill;
+}
+
+.newsLetter {
+    border:2px solid rgb(235, 123, 203);
+    color: rgb(0, 0, 0);
+    padding: 1vh;
+    border-radius: 10px;
+}
+
+.newsLetterBtn {
+    border-radius: 5px;
+    background-color: rgb(235, 123, 203);
+    color: black;
+    padding: 5px;
+    font-size: small;
+    box-shadow: 2px 2px 2px black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.newsLetterBtn:hover {
+    background-color: black;
+    color: white;
+}
